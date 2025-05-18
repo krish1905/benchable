@@ -45,3 +45,5 @@ web-build/
 # macOS
 .DS_Store
 *.pem
+# Environment variables
+.env
