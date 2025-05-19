@@ -1,0 +1,47 @@
+{
+  "name": "benchable",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "expo start",
+    "web": "expo start --web",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "@azure/core-util": "^1.12.0",
+    "@expo/metro-runtime": "~5.0.4",
+    "@expo/vector-icons": "latest",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-navigation/bottom-tabs": "latest",
+    "@react-navigation/native": "latest",
+    "@react-navigation/native-stack": "latest",
+    "@supabase/supabase-js": "^2.49.4",
+    "expo": "latest",
+    "expo-auth-session": "~6.1.5",
+    "expo-constants": "^17.1.6",
+    "expo-font": "latest",
+    "expo-image-picker": "latest",
+    "expo-location": "latest",
+    "expo-status-bar": "latest",
+    "expo-web-browser": "~14.1.6",
+    "react": "19.0.0",
+    "react-native": "latest",
+    "react-native-crypto": "^2.2.0",
+    "react-native-maps": "1.20.1",
+    "react-native-polyfill-globals": "^3.1.0",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-web": "latest",
+    "react-native-websocket": "^1.0.2",
+    "readable-stream": "^4.7.0",
+    "stream-browserify": "^3.0.0",
+    "text-encoding": "^0.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.4",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "typescript": "^5"
+  }
+}
